@@ -4,7 +4,6 @@
 # Supported by Our Group Member.
 import math as math
 import fractions as frac
-import tkinter
 
 def main():
     amount_of_class = input("クラス何個？(デフォルト値:5)")
@@ -26,7 +25,6 @@ def main():
         print(temp * x)
         c = c + temp * x
     print(float(c) + 1)
-    print(bin(int(c)))
 
 
 if __name__ == "__main__":
